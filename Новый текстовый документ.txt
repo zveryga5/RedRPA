@@ -1,0 +1,7 @@
+function get_count() 
+{
+    return 2;
+}
+loop(get_count()){
+   CV_scan("Steam");
+}
